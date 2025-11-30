@@ -1,14 +1,15 @@
 {
   "name": "calendrier-chantier",
-  "version": "1.0.0",
   "private": true,
-  "description": "Outil de suivi de calendrier d'opération de promotion immobilière",
+  "version": "2.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^10.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
